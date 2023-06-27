@@ -1,5 +1,9 @@
-# Introduction
-This is a step by step guide on how to build an mmWave presence detection using DFRobot SEN0395, D1 Mini ESP-8266 and ESPHome. 
+# ESPHome mmWave Presence Sensor
+
+Note that, this is fork of the great work by igiannakas and their project [https://github.com/igiannakas/mmwave-d1mini](https://github.com/igiannakas/mmwave-d1mini).
+I've left most of the readme unchanged as the purpose of this fork is more for tracking changes to my own sensors.
+
+This is a step by step guide on how to build an mmWave presence detection using DFRobot SEN0395, D1 Mini ESP-8266 and ESPHome.
 
 The custom module in the code above is used to implement a room presense sensor and exposes the presense detection sensor and the radar's configuration variables to Home Assistant via the ESPHome integration.
 
